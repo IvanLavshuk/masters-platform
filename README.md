@@ -6,10 +6,18 @@
 
 - [Техническое задание](docs/current/01_requirements.pdf)
 - [Архитектура и API](docs/current/02_architecture_api.pdf)
-- [UML и прототипы из ЛР 3](docs/current/03_uml.pdf)
+- [Актуальные UML и интерфейсы](docs/current/03_uml.pdf)
 - [ER-модель](docs/current/04_data_model.pdf)
 - Исходные отчёты ЛР 1–4: `docs/baseline/`.
 - Редактируемые документы и диаграммы: `docs/source/`.
+
+- [Единый комплект документации](docs/release/project-documentation.pdf)
+- [Руководство пользователя](docs/guides/user-guide.pdf)
+- [Руководство администратора](docs/guides/admin-guide.pdf)
+- [Отчёт по ЛР 5](docs/reports/LR5_report.pdf)
+- [OpenAPI](docs/source/openapi.yaml)
+- [Учебные замечания](docs/changes/feedback.md)
+- [Соответствие изменений требованиям](docs/changes/traceability.md)
 
 ## Состояние проекта
 
@@ -47,3 +55,7 @@
 ## Правила работы с документацией
 
 Исходные работы сохраняются без изменения в `docs/baseline/`. Актуальные PDF размещаются в `docs/current/`, редактируемые исходники — в `docs/source/`. Новые требования связываются с идентификаторами замечаний и изменёнными моделями. Не включать в коммиты пароли, локальные настройки, сборки и зависимости.
+
+## Итерация 1
+
+FB-01: отмена с подтверждением и причиной. FB-02: безопасное восстановление оплаты. FB-03: подтверждение работ заказчиком. В исходном общем draw.io доработаны Use Case, Activity и Sequence. API и описание расширений данных согласованы с ними. Веб-макет без рекламы: prototypes/index.html.
