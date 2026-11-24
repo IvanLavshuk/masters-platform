@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in config/.env}
+    ports:
+      - "${DB_PORT:-15432}:5432"
+    volumes:
+      - masters-data:/var/lib/postgresql/data
+volumes:
+  masters-data:

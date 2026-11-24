@@ -1,0 +1,31 @@
+# Java and Gradle
+.gradle/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+# React and Node
+node_modules/
+dist/
+coverage/
+.vite/
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+# Local configuration and editors
+.env
+.env.*
+!.env.example
+*.local
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+~$*
